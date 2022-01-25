@@ -1,8 +1,7 @@
-import React from "react";
-import ReactDom from "react-dom";
-ReactDOM.render(
-    <div>
-        <h1>Rollodex</h1>
-    </div>,
-    document.getElementById('root-rollodex')
-)
+import React from 'react'
+import ReactDOM from 'react-dom'
+import Home from './pages/Home/Home'
+import './index.css'
+
+ReactDOM.render(<Home />,document.getElementById('root'))
+
